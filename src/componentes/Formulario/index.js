@@ -10,6 +10,7 @@ const Formulario = (props) => {
         'Programação',
         'Front-end',
         'Data Science',
+        'Devops',
         'Ux e Design',
         'Mobile',
         'Inovação e Gestão'
