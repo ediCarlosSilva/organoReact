@@ -47,6 +47,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([]);
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
+    // debugger
     setColaboradores([...colaboradores, colaborador]);
   }
 
@@ -64,7 +65,7 @@ function App() {
           colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
         />)
       }
-
+      <Rodape />
     </div>
   );
 }
